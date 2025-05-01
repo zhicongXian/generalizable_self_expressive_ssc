@@ -21,7 +21,7 @@ def reconstruct_x(x_original, B_estimated):
     return x_reconst
 
 
-def train_model(batch_size=1, pretraining_epochs=10, full_epochs=20, learning_rate=0.001):
+def train_model(batch_size=1, pretraining_epochs=2000, full_epochs=5000, learning_rate=0.001):
     full_model = TrajectoryEmbeddingModel()
 
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
