@@ -1,0 +1,4 @@
+Model weights loaded successfully.
+Loading Hopkins155 data from: ./data/Hopkins155/
+finished loading data for 157 sequences
+Error rate for Hopkins155 dataset: 0.8726979175279015
