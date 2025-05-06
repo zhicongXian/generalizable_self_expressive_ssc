@@ -36,7 +36,7 @@ def calculate_clustering_error(ground_truth, predicted):
 
 
 def load_trajectory_data():
-    dataset = Hopkins155("data/test_samples/")
+    dataset = Hopkins155()
     loaded_data = DataLoader(dataset, batch_size=1)
     return loaded_data
 

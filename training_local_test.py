@@ -181,7 +181,7 @@ def main():
     else:
         print("Model training failed.")
 
-    pytorch_save_path = 'out/models/trained_model_weights.pt'
+    pytorch_save_path = 'out/models/trained_model_weights_test.pt'
     print(f"Saving model state_dict to {pytorch_save_path}...")
     torch.save(trained_model.state_dict(), pytorch_save_path)
     print("Saved.")
